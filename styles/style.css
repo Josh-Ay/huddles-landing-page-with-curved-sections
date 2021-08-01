@@ -12,11 +12,11 @@
 h1, h2, h3{
     font-family: 'Poppins', sans-serif;
 }
-h1{
+h2{
     font-size: 3.1rem;
     margin-left: 2%;
 }
-h2{
+h1.build{
     font-size: 2.85rem;
 }
 h3{
@@ -108,7 +108,7 @@ li{
     color: hsl(322, 100%, 66%);
     background: transparent;
 }
-.try-it-btn:hover{
+.try-it-btn:hover, .try-it-btn:focus{
     opacity: 0.4;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     color: hsl(322, 100%, 10%);
@@ -178,7 +178,7 @@ li{
 .card:nth-child(1){
     margin-right: 27%;
 }
-.card h1.outreach-bigger-text{
+.card h2.outreach-bigger-text{
     font-family: 'Open Sans' ,sans-serif;
     font-size: 5.6rem;
     font-weight: 700;
@@ -275,7 +275,7 @@ li{
     fill: white;
 }
 .footer-text{
-    padding: 3% 0;
+    padding: 5% 0 3%;
 }
 .news-text{
     width: 55%;
@@ -304,9 +304,6 @@ i.fab.fa-instagram:hover{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-}
-.newsletter-info{
-    padding-top: 2%;
 }
 input[name="email"]{
     width: 48%;
@@ -339,6 +336,9 @@ input[name="email"]:focus{
     display: block;
     color: hsl(322, 100%, 66%);
 }
+#footer .nav-details{
+    width: 40%;
+}
 
 
 /* Scroll-to-top btn */
@@ -351,7 +351,7 @@ input[name="email"]:focus{
     padding: 1% 1.32%;
     z-index: 1;
 }
-#scrollToTop:hover{
+#scrollToTop:hover, #scrollToTop:focus{
     opacity: 0.6;
 }
 
@@ -471,6 +471,9 @@ input[name="email"]:focus{
     h3{
         font-size: 2rem;
     }
+    .nav-details{
+        width: 44%;
+    }
     section.intro{
         padding-top: 22%;
     }
@@ -564,6 +567,9 @@ input[name="email"]:focus{
     }
     .newsletter-info{
         margin-bottom: 28%;
+    }
+    #footer .nav-details{
+        width: 70%;
     }
     input[name="email"]{
         display: block;
