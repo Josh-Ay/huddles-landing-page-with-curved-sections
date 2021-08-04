@@ -474,6 +474,9 @@ input[name="email"]:focus{
     .nav-details{
         width: 44%;
     }
+    #navigation .nav-details:nth-child(2){
+        width: max-content;
+    }
     section.intro{
         padding-top: 22%;
     }
